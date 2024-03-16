@@ -1,0 +1,96 @@
+{
+    "recipes": [
+      {
+        "recipe_id": "1",
+        "recipe_name": "Spaghetti Carbonara",
+        "short_description": "Classic Italian pasta dish with creamy sauce.",
+        "ingredients": [
+          "200 g spaghetti",
+          "100 g pancetta",
+          "2 eggs",
+          "50 g Parmesan cheese",
+          "Salt and pepper to taste"
+        ],
+        "preparing_time": "20 min",
+        "calories": "450 calories",
+        "recipe_image": "https://i.ibb.co/9GJPfZ1/spaghetti-pasta-with-salmon-fillet-meat.jpg"
+      },
+      {
+        "recipe_id": "2",
+        "recipe_name": "Chicken Curry",
+        "short_description": "Spicy and flavorful chicken curry.",
+        "ingredients": [
+          "500 g chicken",
+          "200 ml coconut milk",
+          "1 onion",
+          "2 tomatoes",
+          "3 cloves garlic",
+          "2 tsp curry powder"
+        ],
+        "preparing_time": "45 min",
+        "calories": "380 calories",
+        "recipe_image": "https://i.ibb.co/DCfRzwG/curry-with-chicken-onions-indian-food-asian-cuisine.jpg"
+      },
+      {
+        "recipe_id": "3",
+        "recipe_name": "Greek Salad",
+        "short_description": "Fresh and healthy salad with Mediterranean flavors.",
+        "ingredients": [
+          "2 tomatoes",
+          "1 cucumber",
+          "100 g feta cheese",
+          "50 g black olives",
+          "1/2 red onion",
+          "Olive oil and vinegar dressing"
+        ],
+        "preparing_time": "15 min",
+        "calories": "250 calories",
+        "recipe_image": "https://i.ibb.co/NmgPThT/greek-salad-with-cucumber-tomato-sweet-pepper-lettuce-green-onion-feta-cheese-olives-with-olive-oil.jpg" },
+      {
+        "recipe_id": "4",
+        "recipe_name": "Vegetable Stir-Fry",
+        "short_description": "Colorful mix of stir-fried vegetables.",
+        "ingredients": [
+          "200 g broccoli",
+          "1 bell pepper",
+          "100 g carrots",
+          "150 g snow peas",
+          "100 g tofu",
+          "3 tbsp soy sauce"
+        ],
+        "preparing_time": "25 min",
+        "calories": "180 calories",
+        "recipe_image": "https://i.ibb.co/pdWYX4K/fried-vegetables-with-sauce-pan-1.jpg"
+      },
+      {
+        "recipe_id": "5",
+        "recipe_name": "Banana Smoothie",
+        "short_description": "Refreshing smoothie with bananas and yogurt.",
+        "ingredients": [
+          "2 ripe bananas",
+          "200 ml yogurt",
+          "100 ml milk",
+          "1 tbsp honey",
+          "Ice cubes (optional)"
+        ],
+        "preparing_time": "5 min",
+        "calories": "150 calories",
+        "recipe_image": "https://i.ibb.co/VJPW68W/banana-almond-smoothie-dark-background.jpg"
+      },
+      {
+        "recipe_id": "6",
+        "recipe_name": "Grilled Salmon",
+        "short_description": "Healthy grilled salmon fillets with lemon.",
+        "ingredients": [
+          "2 salmon fillets",
+          "1 lemon",
+          "2 tbsp olive oil",
+          "Salt and pepper to taste"
+        ],
+        "preparing_time": "15 min",
+        "calories": "300 calories",
+        "recipe_image": "https://i.ibb.co/1T91vQ9/grilled-salmon-with-salad.jpg"
+      }
+    ]
+  }
+  

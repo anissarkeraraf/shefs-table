@@ -2,7 +2,7 @@
 const Navber = () => {
     return (
         <div className="lg:m-16">
-            <div className="navbar bg-base-100">
+            <div className="navbar bg-base-100 mb-10">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -39,6 +39,19 @@ const Navber = () => {
 
                 </div>
             </div>
+            <div>
+                <img className="height-full" src="../src/assets/Rectangle 1 (1).png" alt="" />
+                <div className='relative bottom-48 lg:bottom-96 text-center'>
+                    <h1 className='lg:text-4xl font-bold text-white lg:mb-5 mb-2'>Discover an exceptional cooking <br />class tailored for you!</h1>
+                    <p>Welcome to our Recipe Calories.  We are getting calories and quality food here. thank you</p>
+                    <div className="lg:mt-5 mt-2">
+                        <button className="btn bg-[#0be58a] border-none text-black rounded-full mr-3">Explore Now</button>
+                        <button className="btn btn-outline rounded-full">Our Feedback</button>
+                    </div>
+                </div>
+            </div>
+
+           
 
         </div>
     );
