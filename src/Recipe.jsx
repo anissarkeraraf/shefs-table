@@ -14,7 +14,7 @@ const Recipe = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
             {recipes.map(recipe => (
                 <div key={recipe.recipe_id} className="cards-container shadow-2xl p-5">
-                    <div className="card w-[300px] border-2xl">
+                    <div className="card lg:w-[300px] border-2xl">
                         <img className="rounded-xl" src={recipe.recipe_image} alt={recipe.recipe_name} />
                         <h1 className="font-bold text-black mb-4 mt-3">{recipe.recipe_name}</h1>
                         <p className="text-black opacity-60 mb-4">{recipe.short_description}</p>
