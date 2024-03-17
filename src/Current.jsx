@@ -14,7 +14,7 @@ const Current = ({ prepering }) => {
                 </thead>
                 <tbody>
                     {prepering.map((prepar, index) => (
-                        <tr key={index} className="hover bg-[#F9F9F9] p-3 pb-3">
+                        <tr key={index} className="hover bg-[#F9F9F9]">
                             <td>{index + 1}</td>
                             <td>{prepar.recipe_name}</td>
                             <td>{prepar.preparing_time}</td>
