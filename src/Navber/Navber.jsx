@@ -40,7 +40,7 @@ const Navber = () => {
                 </div>
             </div>
             <div>
-                <img className="height-full" src="../src/assets/Rectangle 1 (1).png" alt="" />
+                <img className="height-full" src="/public/Rectangle 1 (1).png" alt="" />
                 <div className='relative  bottom-48 lg:bottom-96 text-center'>
                     <h1 className='lg:text-4xl font-bold text-white lg:mb-5 mb-2'>Discover an exceptional cooking <br />class tailored for you!</h1>
                     <p className="text-white">Welcome to our Recipe Calories.  We are getting calories and quality food here. thank you</p>
