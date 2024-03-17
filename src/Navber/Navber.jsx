@@ -26,7 +26,7 @@ const Navber = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <div className='flex gap-2 lg:gap-5 mr-5'>
+                    <div className='flex gap-2 lg:gap-5 mr-10'>
                         <div>
                             <label className="input input-bordered flex items-center gap-2">
                                 <img src="../src/assets/Vector (3).png" alt="" />

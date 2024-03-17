@@ -1,7 +1,8 @@
-
 import React, { useEffect, useState } from "react";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
-const Recipe = ({ addToCart }) => {
+const Recipe = ({ addToCart, getRecipeIdsFromCart }) => {
     const [recipes, setRecipes] = useState([]);
 
     useEffect(() => {
@@ -10,6 +11,18 @@ const Recipe = ({ addToCart }) => {
             .then(data => setRecipes(data.recipes))
             .catch(error => console.error('Error fetching data:', error));
     }, []);
+
+    const recipeIdsInCart = getRecipeIdsFromCart();
+
+    const handleAddToCart = (recipe) => {
+        const recipeId = recipe.recipe_id;
+
+        if (recipeIdsInCart.includes(recipeId)) {
+            toast.error("This recipe is already in your cart!");
+        } else {
+            addToCart(recipe);
+        }
+    };
 
     return (
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
@@ -20,11 +33,12 @@ const Recipe = ({ addToCart }) => {
                         <h1 className="font-bold text-black mb-4 mt-3">{recipe.recipe_name}</h1>
                         <p className="text-black opacity-60 mb-4">{recipe.short_description}</p>
                         <p className="font-semibold text-black mb-2">Ingredients: {recipe.ingredients.length}</p>
-                        <ul className="mb-4">
+                        <ul className="mb-4 list-disc pl-4">
                             {recipe.ingredients.map((ingredient, index) => (
                                 <li key={index}>{ingredient}</li>
                             ))}
                         </ul>
+
                         <div className='flex mr-20 gap-4 mb-5'>
                             <div className='flex gap-1'>
                                 <img className="" src="../src/assets/Frame (9).png" alt="" />
@@ -36,9 +50,10 @@ const Recipe = ({ addToCart }) => {
                             </div>
                         </div>
                     </div>
-                    <button onClick={() => addToCart(recipe)} className='btn bg-[#0be58a] text-black'>Want to Cook</button>
+                    <button onClick={() => handleAddToCart(recipe)} className='btn bg-[#0be58a] text-black'>Want to Cook</button>
                 </div>
             ))}
+            <ToastContainer />
         </div>
     );
 };
