@@ -33,6 +33,10 @@ const App = () => {
 
     <div>
       <Navber></Navber>
+      <div className='mb-16 text-center'>
+        <h1 className='text-4xl font-bold'>Our Recipes</h1>
+        <p className='text-black opacity-60 lg:w-[450px] mx-auto mt-4'>You will find calorie rich food recipes at Calories.  List of your favorite and quality dishes in our recipe section</p>
+      </div>
       <div className='lg:flex justify-around'>
         <div className='mb-20 lg:mb-0'>
           <Recipe getRecipeIdsFromCart={getRecipeIdsFromCart} addToCart={addToCart}></Recipe>

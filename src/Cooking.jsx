@@ -52,7 +52,7 @@ const Cooking = ({ cart, handleToCurrentPreparing }) => {
                 </thead>
                 <tbody>
                     {cart.map((item, index) => (
-                        <tr key={index} className="hover bg-[#F9F9F9]">
+                        <tr key={index} className="hover bg-[#F9F9F9] m-4 pb-4">
                             <td>{index + 1}</td>
                             <td>{item.recipe_name}</td>
                             <td>{item.preparing_time}</td>
