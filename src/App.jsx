@@ -1,42 +1,31 @@
+import React, { useState } from 'react';
+import Recipe from './Recipe';
+import Cooking from './Cooking';
+import Navber from './Navber/Navber';
 
-import './App.css'
-import Navber from './Navber/Navber'
-import Recipe from './Recipe'
+const App = () => {
+  const [cart, setCart] = useState([]);
 
-function App() {
+  // Function to add a recipe to the cart
+  const addToCart = (recipe) => {
+    setCart(prevCart => [...prevCart, recipe]);
+  };
 
-
-
- 
   return (
-    <>
+
+    <div>
       <Navber></Navber>
-
-      <div className="main-container lg:flex justify-around">
-       <div>
-       <Recipe></Recipe>
-       </div>
-        <div className="current-cooking-container text-3xl">Current Cooking</div>
-      </div>
-
-      {/* 
-      <div className='w-8/12'>
-
-        <div className="card w-96 bg-base-100 shadow-xl">
-          <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
-          <div className="card-body">
-            <h2 className="card-title">{ }</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
-            <div className="card-actions">
-              <button className="btn btn-primary">Buy Now</button>
-            </div>
-          </div>
+      <div className='lg:flex justify-around'>
+        <div className='mb-20 lg:mb-0'>
+          <Recipe addToCart={addToCart}></Recipe>
         </div>
+        <div className='shadow-2xl'>
+          <Cooking cart={cart}></Cooking>
+        </div>
+      </div>
+    </div>
 
+  );
+};
 
-      </div> */}
-    </>
-  )
-}
-
-export default App
+export default App;

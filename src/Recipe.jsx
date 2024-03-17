@@ -1,6 +1,7 @@
-import { useEffect, useState } from "react";
 
-const Recipe = () => {
+import React, { useEffect, useState } from "react";
+
+const Recipe = ({ addToCart }) => {
     const [recipes, setRecipes] = useState([]);
 
     useEffect(() => {
@@ -20,15 +21,13 @@ const Recipe = () => {
                         <p className="text-black opacity-60 mb-4">{recipe.short_description}</p>
                         <p className="font-semibold text-black mb-2">Ingredients: {recipe.ingredients.length}</p>
                         <ul className="mb-4">
-                            <li>
-                                {recipe.ingredients.map((ingredient, index) => (
-                                    <li key={index}>{ingredient}</li>
-                                ))}
-                            </li>
+                            {recipe.ingredients.map((ingredient, index) => (
+                                <li key={index}>{ingredient}</li>
+                            ))}
                         </ul>
                         <div className='flex mr-20 gap-4 mb-5'>
                             <div className='flex gap-1'>
-                            <img className="" src="../src/assets/Frame (9).png" alt=""  />
+                                <img className="" src="../src/assets/Frame (9).png" alt="" />
                                 <p>{recipe.preparing_time}</p>
                             </div>
                             <div className='flex gap-1'>
@@ -37,7 +36,7 @@ const Recipe = () => {
                             </div>
                         </div>
                     </div>
-                    <button className='btn bg-[#0be58a] text-black'>Want to Cook</button>
+                    <button onClick={() => addToCart(recipe)} className='btn bg-[#0be58a] text-black'>Want to Cook</button>
                 </div>
             ))}
         </div>
