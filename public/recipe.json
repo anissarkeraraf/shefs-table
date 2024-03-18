@@ -45,7 +45,8 @@
         ],
         "preparing_time": "15 min",
         "calories": "250 calories",
-        "recipe_image": "https://i.ibb.co/NmgPThT/greek-salad-with-cucumber-tomato-sweet-pepper-lettuce-green-onion-feta-cheese-olives-with-olive-oil.jpg" },
+        "recipe_image": "https://i.ibb.co/NmgPThT/greek-salad-with-cucumber-tomato-sweet-pepper-lettuce-green-onion-feta-cheese-olives-with-olive-oil.jpg"
+      },
       {
         "recipe_id": "4",
         "recipe_name": "Vegetable Stir-Fry",
@@ -60,7 +61,7 @@
         ],
         "preparing_time": "25 min",
         "calories": "180 calories",
-        "recipe_image": "https://i.ibb.co/pdWYX4K/fried-vegetables-with-sauce-pan-1.jpg"
+        "recipe_image": "https://i.ibb.co/ThdNmM5/fried-vegetables-with-sauce-pan.jpg"
       },
       {
         "recipe_id": "5",

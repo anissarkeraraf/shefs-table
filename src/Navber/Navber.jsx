@@ -29,27 +29,17 @@ const Navber = () => {
                     <div className='flex gap-2 lg:gap-5 mr-10'>
                         <div>
                             <label className="input input-bordered flex items-center gap-2">
-                                <img src="../src/assets/Vector (3).png" alt="" />
+                                <img src="../../public/images/Search.png" alt="" />
                                 <input type="text" className="grow" placeholder="Search" />
 
                             </label>
                         </div>
-                        <img className='lg:w-1/6' src="../../src/images/Profile_icon.png" alt="" />
+                        <img className='lg:w-1/6' src="../../public/images/Profile_icon.png" alt="" />
                     </div>
 
                 </div>
             </div>
-            <div>
-                <img className="height-full" src="../../src/images/Banner.png" alt="" />
-                <div className='relative  bottom-48 lg:bottom-96 text-center'>
-                    <h1 className='lg:text-4xl font-bold text-white lg:mb-5 mb-2'>Discover an exceptional cooking <br />class tailored for you!</h1>
-                    <p className="text-white">Welcome to our Recipe Calories.  We are getting calories and quality food here. thank you</p>
-                    <div className="lg:mt-5 mt-2">
-                        <button className="btn bg-[#0be58a] border-none text-black rounded-full mr-3">Explore Now</button>
-                        <button className="btn btn-outline rounded-full text-white">Our Feedback</button>
-                    </div>
-                </div>
-            </div>
+        
 
            
 

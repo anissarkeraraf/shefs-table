@@ -3,6 +3,7 @@ import Recipe from './Recipe';
 import Cooking from './Cooking';
 import Navber from './Navber/Navber';
 import Current from './Current';
+import Banner from './Navber/Banner';
 
 const App = () => {
   const [cart, setCart] = useState([]);
@@ -33,6 +34,7 @@ const App = () => {
 
     <div>
       <Navber></Navber>
+      <Banner></Banner>
       <div className='mb-16 text-center'>
         <h1 className='text-4xl font-bold'>Our Recipes</h1>
         <p className='text-black opacity-60 lg:w-[450px] mx-auto mt-4'>You will find calorie rich food recipes at Calories.  List of your favorite and quality dishes in our recipe section</p>
