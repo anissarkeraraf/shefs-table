@@ -44,11 +44,11 @@ const Recipe = ({ addToCart, getRecipeIdsFromCart }) => {
 
                             <div className='flex mr-20 gap-4 mb-5'>
                                 <div className='flex gap-1'>
-                                    <img className="" src="../public/images/Time.png" alt="" />
+                                    <img className="https://i.ibb.co/q1bdHSS/Time.pn" src={recipe. icon_image1} alt="" />
                                     <p>{recipe.preparing_time}</p>
                                 </div>
                                 <div className='flex gap-1'>
-                                    <img src="../public/images/Fire.png" alt="" />
+                                    <img src={recipe.icon_image2} alt="" />
                                     <p>{recipe.calories}</p>
                                 </div>
                             </div>

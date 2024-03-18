@@ -13,7 +13,9 @@
         ],
         "preparing_time": "20 min",
         "calories": "450 calories",
-        "recipe_image": "https://i.ibb.co/9GJPfZ1/spaghetti-pasta-with-salmon-fillet-meat.jpg"
+        "recipe_image": "https://i.ibb.co/9GJPfZ1/spaghetti-pasta-with-salmon-fillet-meat.jpg",
+        "icon_image1": "https://i.ibb.co/q1bdHSS/Time.png",
+        "icon_image2": "https://i.ibb.co/x6BMgpx/Fire.png"
       },
       {
         "recipe_id": "2",
@@ -29,7 +31,9 @@
         ],
         "preparing_time": "45 min",
         "calories": "380 calories",
-        "recipe_image": "https://i.ibb.co/DCfRzwG/curry-with-chicken-onions-indian-food-asian-cuisine.jpg"
+        "recipe_image": "https://i.ibb.co/DCfRzwG/curry-with-chicken-onions-indian-food-asian-cuisine.jpg",
+        "icon_image1": "https://i.ibb.co/q1bdHSS/Time.png",
+        "icon_image2": "https://i.ibb.co/x6BMgpx/Fire.png"
       },
       {
         "recipe_id": "3",
@@ -45,7 +49,9 @@
         ],
         "preparing_time": "15 min",
         "calories": "250 calories",
-        "recipe_image": "https://i.ibb.co/NmgPThT/greek-salad-with-cucumber-tomato-sweet-pepper-lettuce-green-onion-feta-cheese-olives-with-olive-oil.jpg"
+        "recipe_image": "https://i.ibb.co/NmgPThT/greek-salad-with-cucumber-tomato-sweet-pepper-lettuce-green-onion-feta-cheese-olives-with-olive-oil.jpg",
+        "icon_image1": "https://i.ibb.co/q1bdHSS/Time.png",
+        "icon_image2": "https://i.ibb.co/x6BMgpx/Fire.png"
       },
       {
         "recipe_id": "4",
@@ -61,7 +67,9 @@
         ],
         "preparing_time": "25 min",
         "calories": "180 calories",
-        "recipe_image": "https://i.ibb.co/ThdNmM5/fried-vegetables-with-sauce-pan.jpg"
+        "recipe_image": "https://i.ibb.co/ThdNmM5/fried-vegetables-with-sauce-pan.jpg",
+        "icon_image1": "https://i.ibb.co/q1bdHSS/Time.png",
+        "icon_image2": "https://i.ibb.co/x6BMgpx/Fire.png"
       },
       {
         "recipe_id": "5",
@@ -76,7 +84,9 @@
         ],
         "preparing_time": "5 min",
         "calories": "150 calories",
-        "recipe_image": "https://i.ibb.co/VJPW68W/banana-almond-smoothie-dark-background.jpg"
+        "recipe_image": "https://i.ibb.co/VJPW68W/banana-almond-smoothie-dark-background.jpg",
+        "icon_image1": "https://i.ibb.co/q1bdHSS/Time.png",
+        "icon_image2": "https://i.ibb.co/x6BMgpx/Fire.png"
       },
       {
         "recipe_id": "6",
@@ -90,7 +100,43 @@
         ],
         "preparing_time": "15 min",
         "calories": "300 calories",
-        "recipe_image": "https://i.ibb.co/1T91vQ9/grilled-salmon-with-salad.jpg"
+        "recipe_image": "https://i.ibb.co/1T91vQ9/grilled-salmon-with-salad.jpg",
+        "icon_image1": "https://i.ibb.co/q1bdHSS/Time.png",
+        "icon_image2": "https://i.ibb.co/x6BMgpx/Fire.png"
+      },
+      {
+        "recipe_id": "7",
+        "recipe_name": "Chocolate Cake",
+        "short_description": "Indulgent and moist chocolate cake.",
+        "ingredients": [
+          "200 g flour",
+          "100 g cocoa powder",
+          "200 g sugar",
+          "150 g butter",
+          "3 eggs",
+          "1 tsp vanilla extract"
+        ],
+        "preparing_time": "40 min",
+        "calories": "400 calories",
+        "recipe_image": "https://i.ibb.co/kQty7Wf/chocolate-cake-with-chocolate-truffles.jpg",
+        "icon_image1": "https://i.ibb.co/q1bdHSS/Time.png",
+        "icon_image2": "https://i.ibb.co/x6BMgpx/Fire.png"
+      },
+      {
+        "recipe_id": "8",
+        "recipe_name": "Avocado Toast",
+        "short_description": "Simple and nutritious avocado toast.",
+        "ingredients": [
+          "2 slices whole grain bread",
+          "1 avocado",
+          "1 tomato",
+          "Salt and pepper to taste"
+        ],
+        "preparing_time": "10 min",
+        "calories": "200 calories",
+        "recipe_image": "https://i.ibb.co/M1GMQPL/avocado-open-toast-with-avocado-slices-lemon-flax-seeds-sesame-seeds-black-bread-slices-top-view.jpg",
+        "icon_image1": "https://i.ibb.co/q1bdHSS/Time.png",
+        "icon_image2": "https://i.ibb.co/x6BMgpx/Fire.png"
       }
     ]
   }

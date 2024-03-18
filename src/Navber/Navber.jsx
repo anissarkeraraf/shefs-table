@@ -29,12 +29,12 @@ const Navber = () => {
                     <div className='flex gap-2 lg:gap-5 mr-10'>
                         <div>
                             <label className="input input-bordered flex items-center gap-2">
-                                <img src="../../public/images/Search.png" alt="" />
+                                <img src="https://i.ibb.co/GPm3bt3/Search.png" alt="" />
                                 <input type="text" className="grow" placeholder="Search" />
 
                             </label>
                         </div>
-                        <img className='lg:w-1/6' src="../../public/images/Profile_icon.png" alt="" />
+                        <img className='lg:w-1/6' src="https://i.ibb.co/NNFHgQX/Profile-icon.png" alt="" />
                     </div>
 
                 </div>

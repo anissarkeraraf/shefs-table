@@ -1,8 +1,9 @@
 const Banner = () => {
     return (
         <div>
+         
 
-            <div className="hero lg:w-11/12 lg:mx-auto lg:h-[600px] rounded-xl" style={{ backgroundImage: 'url(../../public/images/Banner.png)' }}>
+            <div className="hero lg:w-11/12 lg:mx-auto lg:h-[600px] rounded-xl" style={{ backgroundImage: 'url(https://i.ibb.co/9hnST8s/Banner.png)' }}>
                 <div className="hero-overlay rounded-xl bg-opacity-20"></div>
                 <div className=' text-center mb-4'>
                     <h1 className='lg:text-4xl font-bold text-white lg:mb-5 mb-2'>Discover an exceptional cooking <br />class tailored for you!</h1>
